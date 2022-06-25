@@ -1,0 +1,15 @@
+.navbar .container{
+   /* background-color:white; */
+    height: 100%;
+    padding: 1rem;
+}
+   . navbar{
+    width: 80%;
+    height: 90%;
+    border-bottom: 1px solid #eee;
+    background-color:white;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}

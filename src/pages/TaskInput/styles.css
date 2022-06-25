@@ -1,0 +1,107 @@
+ .taskInput{
+    background-color:grey;
+    height: calc(100vh - 5px);
+    width: 107%;
+ }
+ .right{
+    margin-left: 50px;
+    margin-top: 50px;
+ }
+ .right-top{
+    text-indent: 5px;
+    border-top: 2px solid #48494B;
+    border-left: 2px solid #48494B;
+    border-right: 2px solid #48494B;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+ }
+ .icons{
+    border-left: 2px solid #48494B;
+    height: 4vh;
+    float: right;
+    margin-top: -2px; 
+    position: relative;
+    z-index:1;
+    cursor:pointer;
+  }
+.register-form{
+    background-color: rgb(0, 128, 128);
+padding: 10px;
+width: 400px;  
+display: flex;
+flex-direction: column;
+border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px;
+}
+.task-top{
+   margin-bottom:1px;
+   background-color:grey;
+}
+label{
+    letter-spacing: 0.04em;
+}
+input{
+    text-indent: 5px;
+    padding:24px 4px;
+   font-size: 18px;
+   width: 96%;
+   text-align: left;
+   align-items: center;
+   margin-bottom: 10px;
+   border: 1px solid #EAEAEA;
+   border-radius: 5px ;
+   padding: 1rem 0;
+   padding-right: 15px;
+ }
+ input:hover{
+    color: grey;
+ }
+ .datetime{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
+ }
+ 
+ .btned{
+    display: flex ;
+ }
+ .btn{
+    border: none ;
+    border-radius: none;
+    margin-left: 220px;
+    color: #48494B;
+ }
+ .btns{
+    padding: 7px 24px;
+    border: 1px solid green;
+    background-color: green;
+    color: #fff;
+    border-radius: 8px 4px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 25px;  
+  }
+  
+  .icon{
+    float: right;
+    margin-top: -45px; 
+    margin-right: 20px;
+    position: relative;
+    z-index: 1; 
+    cursor:pointer;
+  }
+ .guide{
+    display: flex;
+    padding: 10px;
+   width: 400px;  
+   display: flex;
+  flex-direction: column;
+  border-radius: 5px
+ }
+ .guide-right{
+    display: flex;
+    justify-items: space-evenly;
+    align-items: center;
+ }
+  

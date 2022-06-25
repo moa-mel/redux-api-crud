@@ -1,0 +1,10 @@
+.sidebar .container{
+    border-right-width: 1px;
+}
+.sidebar{
+    flex: 1;
+    height: calc(100vh - 1px); 
+    background-color: #003151;
+    position: sticky;
+    top: 0;
+}
